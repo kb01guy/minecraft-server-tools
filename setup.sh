@@ -48,7 +48,7 @@ cd ${BASEDIR}/tools/buildtools && curl -O https://hub.spigotmc.org/jenkins/job/B
 && java -jar BuildTools.jar --rev 1.17
 
 # Setup Server-Space
-cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot-1.17.jar ./spigot.jar
+cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot*.jar ./spigot.jar
 
   # Download Plugins
   cd ${BASEDIR}/server/plugins
@@ -74,3 +74,18 @@ cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot-1.17.jar ./spigot.
   # emotecraft https://www.curseforge.com/minecraft/bukkit-plugins/emotecraft-bukkit
   LATEST=$(get_latest_release KosmX/emotes)
   curl -OL https://github.com/KosmX/emotes/releases/download/${LATEST}/emotecraft-2.0.5-bukkit.jar
+  # Multiverse https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-core
+  curl -OL https://media.forgecdn.net/files/3074/594/Multiverse-Core-4.2.2.jar
+  # MV-inventories https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-inventories
+  curl -OL https://media.forgecdn.net/files/3222/929/Multiverse-Inventories-4.2.2.jar
+  # MV-SignPortals https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-signportals
+  curl -OL https://media.forgecdn.net/files/3074/605/Multiverse-SignPortals-4.2.0.jar
+  # MV-Portals https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-portals
+  curl -OL https://media.forgecdn.net/files/3113/114/Multiverse-Portals-4.2.1.jar
+  # WorldEdit (Dependency for Plot²) https://www.curseforge.com/minecraft/bukkit-plugins/worldedit
+  curl -OL https://media.forgecdn.net/files/3283/695/worldedit-bukkit-7.2.5-dist.jar
+  # Plot² https://www.curseforge.com/minecraft/bukkit-plugins/plotsquared (Buyable for 15€ here: https://www.spigotmc.org/resources/plotsquared-v5.77506/ )
+  curl -OL https://media.forgecdn.net/files/2932/66/PlotSquared-Bukkit-4.494.jar
+  # ChestShop https://www.curseforge.com/minecraft/bukkit-plugins/chestshop
+  LATEST=$(get_latest_release ChestShop-authors/ChestShop-3)
+  curl -OL https://github.com/ChestShop-authors/ChestShop-3/releases/download/${LATEST}/ChestShop.jar
