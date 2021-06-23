@@ -73,7 +73,7 @@ cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot*.jar ./spigot.jar
   wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar
   # emotecraft https://www.curseforge.com/minecraft/bukkit-plugins/emotecraft-bukkit
   LATEST=$(get_latest_release KosmX/emotes)
-  curl -OL https://github.com/KosmX/emotes/releases/download/${LATEST}/emotecraft-2.0.5-bukkit.jar
+  curl -OL https://github.com/KosmX/emotes/releases/download/${LATEST}/emotecraft-${LATEST:0:5}-bukkit.jar
   # Multiverse https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-core
   curl -OL https://media.forgecdn.net/files/3074/594/Multiverse-Core-4.2.2.jar
   # MV-inventories https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-inventories
@@ -89,3 +89,10 @@ cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot*.jar ./spigot.jar
   # ChestShop https://www.curseforge.com/minecraft/bukkit-plugins/chestshop
   LATEST=$(get_latest_release ChestShop-authors/ChestShop-3)
   curl -OL https://github.com/ChestShop-authors/ChestShop-3/releases/download/${LATEST}/ChestShop.jar
+  # MoreMobHeads2 https://www.curseforge.com/minecraft/bukkit-plugins/moremobheads2
+  curl -OL https://media.forgecdn.net/files/3350/35/MoreMobHeads-1.14_1.0.19.jar
+  # Heart https://www.curseforge.com/minecraft/bukkit-plugins/heart
+  curl -OL https://media.forgecdn.net/files/3316/502/Heart-RELEASE-1.0.jar
+  # ImageOnMap https://www.curseforge.com/minecraft/bukkit-plugins/imageonmap
+  LATEST=$(get_latest_release zDevelopers/ImageOnMap)
+  curl -OL https://github.com/zDevelopers/ImageOnMap/releases/download/${LATEST}/ImageOnMap-${LATEST[@]/v/}.jar
