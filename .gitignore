@@ -1,2 +1,68 @@
-/server/
+# exclude generated files
 /tools/
+
+# Include Server Config
+!/server/
+/server/*
+!/server/server.properties
+
+# Include Lobby world
+!/server/lobby/
+
+
+# Include Plugin Configs
+!/server/plugins/
+/server/plugins/*
+
+# Include PlotSquared Config
+!/server/plugins/PlotSquared/
+/server/plugins/PlotSquared/*
+!/server/plugins/PlotSquared/config/
+/server/plugins/PlotSquared/config/*
+!/server/plugins/PlotSquared/config/settings.yml
+!/server/plugins/PlotSquared/config/worlds.yml
+
+# Include Multiverse Config
+!/server/plugins/Multiverse-Inventories/
+/server/plugins/Multiverse-Inventories/*
+!/server/plugins/Multiverse-Inventories/groups.yml
+!/server/plugins/Multiverse-Inventories/config.yml
+!/server/plugins/Multiverse-Core/
+/server/plugins/Multiverse-Core/*
+!/server/plugins/Multiverse-Core/config.yml
+!/server/plugins/Multiverse-Core/worlds.yml
+
+# Include LuckyPerms Config
+!/server/plugins/LuckPerms/
+/server/plugins/LuckPerms/*
+!/server/plugins/LuckPerms/permission_export.json
+
+# Include Essentials Config
+!/server/plugins/Essentials/
+/server/plugins/Essentials/*
+!/server/plugins/Essentials/config.yml
+!/server/plugins/Essentials/warps/
+!/server/plugins/Essentials/kits.yml
+
+# Include MoreMobHeads Config
+!/server/plugins/MoreMobHeads/
+/server/plugins/MoreMobHeads/*
+!/server/plugins/MoreMobHeads/chance_config.yml
+!/server/plugins/MoreMobHeads/config.yml
+
+# Include GriefPrevention Config
+!/server/plugins/GriefPreventionData/
+/server/plugins/GriefPreventionData/*
+!/server/plugins/GriefPreventionData/config.yml
+
+
+# Include Bedrock-Compartibility Config
+!/server/plugins/Geyser-Spigot/
+/server/plugins/Geyser-Spigot/*
+!/server/plugins/Geyser-Spigot/config.yml
+!/server/plugins/floodgate/
+/server/plugins/floodgate/*
+!/server/plugins/floodgate/config.yml
+
+# Include ImageOnMap Data
+!/server/plugins/ImageOnMap/

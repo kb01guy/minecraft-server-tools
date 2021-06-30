@@ -1,0 +1,787 @@
+{
+  "metadata": {
+    "generatedBy": "kB01guy",
+    "generatedAt": "2021-06-30 16:24:32 CEST"
+  },
+  "groups": {
+    "admin": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "plots.admin.build.other",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.build.road",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.command.delete",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.command.merge",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.command.remove",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.command.setowner",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.command.unlink",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.destroy.groundlevel",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.destroy.other",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.admin.destroy.road",
+          "value": true
+        }
+      ]
+    },
+    "default": {
+      "nodes": [
+        {
+          "type": "inheritance",
+          "key": "group.player",
+          "value": true
+        }
+      ]
+    },
+    "op": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "*",
+          "value": true
+        }
+      ]
+    },
+    "player": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "plots.set.flag.fly",
+          "value": true,
+          "context": {
+            "server": "*"
+          }
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.block-ignition.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.explosion.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.fly.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.gamemode.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.guest-gamemode.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.keep-inventory.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.pvp.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.time.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.use.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.weather.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "chestshop.shop.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.pay.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.plot.*",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.afk",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.afk.auto",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.balance",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.delhome",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.help",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.home",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.list",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.mail",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.mail.send",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.msg",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.msg.url",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.msgtoggle",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.pay",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.rules",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sethome",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sethome.multiple",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.signs.use.mail",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.sleepingignored",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.time",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpa",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpacancel",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpaccept",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tpahere",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.warp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.warp.list",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "multiverse.access.creative",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "multiverse.access.lobby",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "multiverse.access.world",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "multiverse.access.world_nether",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "multiverse.access.world_the_end",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.add",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.buy",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.claim",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.clear",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.confirm",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.delete",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.flag",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.flag.list",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.home",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.remove",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.all",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.biome",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.fly",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.gamemode",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.gamemode.spectator",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.grass-grow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.guest-gamemode",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.guest-gamemode.spectator",
+          "value": false
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.hostile-attack",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.hostile-interact",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.ice-form",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.ice-melt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.instabreak",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.item-drop",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.keep",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.keep-inventory",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.kelp-grow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.leaf-decay",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.lectern-read-book",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.liquid-flow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.misc-break",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.misc-interact",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.misc-place",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.mob-break",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.mob-place",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.music",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.mycel-grow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.notify-enter",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.notify-leave",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.place",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.pve",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.pvp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.redstone",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.snow-from",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.snow-melt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.soil-dry",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.tamed-attack",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.tamed-interact",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.time",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.titles",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.use",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vehicle-break",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vehicle-cap",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vehicle-interact",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vehicle-place",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vehicle-use",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.flag.vine-grow",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.floor",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.home",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.main",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.set.middle",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.trust",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "plots.use",
+          "value": true
+        }
+      ]
+    },
+    "team": {
+      "nodes": [
+        {
+          "type": "permission",
+          "key": "essentials.back.onteleport",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.ban.notify",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.break.bedrock",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.broadcast",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.broadcastworld",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.delwarp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.fly",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode.spectator",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gamemode.survival",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.gc",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.invsee",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.joinfullserver",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kick",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kick.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.kick.notify",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.setwarp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.signs.create.warp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.speed.fly",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tempban",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tempban.exempt",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tempban.offline",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tempban.unlimited",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.time.set",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.time.world.all",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tp",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.tphere",
+          "value": true
+        },
+        {
+          "type": "permission",
+          "key": "essentials.weather",
+          "value": true
+        }
+      ]
+    },
+    "vip": {
+      "nodes": []
+    }
+  },
+  "tracks": {},
+  "users": {
+    "1ff88b66-beda-4386-85b9-a00a5c27437a": {
+      "username": "kb01guy",
+      "nodes": [
+        {
+          "type": "inheritance",
+          "key": "group.default",
+          "value": true
+        }
+      ]
+    }
+  }
+}

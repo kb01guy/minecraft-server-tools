@@ -1,0 +1,57 @@
+configuration_version: v5
+worlds:
+  creative:
+    plot:
+      height: 62
+      biome: minecraft:forest
+      size: 42
+      filling: minecraft:stone
+      auto_merge: false
+      bedrock: true
+      create_signs: true
+      floor: minecraft:grass_block
+      sign_material: OAK_WALL_SIGN
+    wall:
+      filling: minecraft:stone
+      block_claimed: minecraft:sandstone_slab
+      height: 62
+      block: minecraft:stone_slab
+      place_top_block: true
+    misc_spawn_unowned: false
+    road:
+      block: minecraft:quartz_block
+      height: 62
+      width: 7
+      flags: {}
+    home:
+      nonmembers: side
+      default: side
+    schematic:
+      specify_on_claim: false
+      on_claim: false
+      file: 'null'
+      schematics: []
+    economy:
+      prices:
+        merge: 0
+        sell: 0
+        claim: 100
+      use: false
+    chat:
+      enabled: false
+      forced: false
+    limits:
+      max-members: 128
+    world:
+      max_height: 256
+      gamemode: creative
+      min_height: 1
+      border: false
+    event:
+      spawn:
+        egg: true
+        breeding: false
+        custom: true
+    natural_mob_spawning: false
+    mob_spawner_spawning: false
+    flags: {}
