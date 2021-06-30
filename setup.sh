@@ -74,6 +74,8 @@ cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot*.jar ./spigot.jar
   # floodgate-bukkit Geyser-Spigot https://geysermc.org/
   wget https://ci.opencollab.dev/job/GeyserMC/job/Geyser/job/master/lastSuccessfulBuild/artifact/bootstrap/spigot/target/Geyser-Spigot.jar
   wget https://ci.opencollab.dev/job/GeyserMC/job/Floodgate/job/master/lastSuccessfulBuild/artifact/spigot/target/floodgate-spigot.jar
+  LATEST=$(get_latest_release Camotoy/GeyserSkinManager)
+  curl -OL https://github.com/Camotoy/GeyserSkinManager/releases/download/${LATEST}/GeyserSkinManager-Spigot.jar
   # emotecraft https://www.curseforge.com/minecraft/bukkit-plugins/emotecraft-bukkit
   LATEST=$(get_latest_release KosmX/emotes)
   curl -OL https://github.com/KosmX/emotes/releases/download/${LATEST}/emotecraft-${LATEST:0:5}-bukkit.jar
@@ -83,6 +85,8 @@ cd ${BASEDIR}/server && cp ${BASEDIR}/tools/buildtools/spigot*.jar ./spigot.jar
   MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD} - Inventories https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-inventories \n"
   MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD} - Portals https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-portals \n"
   MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD} - SignPortals https://www.curseforge.com/minecraft/bukkit-plugins/multiverse-signportals \n"
+  # StayPut: https://www.spigotmc.org/resources/stayput.34848/
+  MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD}StayPut: https://www.spigotmc.org/resources/stayput.34848/ \n"
   # Plot² Price: 15€ https://www.spigotmc.org/resources/plotsquared-v6.77506/
   MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD}Plot² (Payed!): \n"
   MANUAL_DOWNLOAD="${MANUAL_DOWNLOAD} - Plugin https://www.spigotmc.org/resources/plotsquared-v6.77506 \n"
