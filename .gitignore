@@ -37,6 +37,11 @@
 /server/plugins/LuckPerms/*
 !/server/plugins/LuckPerms/permission_export.json
 
+# Include BackupOnEvent Config
+!/server/plugins/BackupOnEvent/
+/server/plugins/BackupOnEvent/*
+!/server/plugins/BackupOnEvent/config.yml
+
 # Include Essentials Config
 !/server/plugins/Essentials/
 /server/plugins/Essentials/*
